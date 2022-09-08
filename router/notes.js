@@ -10,6 +10,6 @@ router.post("/", addNotepadData);
 
 router.patch("/:id", patchByIdNotepadDatah)  //to edit a particular data 
 
-// router.delete("/:id", deleteByIdNotepadDatah)
+router.delete("/:id", deleteByIdNotepadDatah)
 
 export default router;
