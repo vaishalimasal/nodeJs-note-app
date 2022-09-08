@@ -20,5 +20,6 @@
     "url": "https://github.com/vaishalimasal/nodeJs-note-app/issues"
   },
   "homepage": "https://github.com/vaishalimasal/nodeJs-note-app#readme",
-  "description": ""
+  "description": "",
+  "type": "module"
 }
