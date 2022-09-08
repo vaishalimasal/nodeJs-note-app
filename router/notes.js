@@ -1,8 +1,11 @@
 import express from 'express'
-import { addNotepadData, getAllNotepadData } from '../controller/notes.js';
+import { addNotepadData, getAllNotepadData, getbyIdNotepadData} from '../controller/notes.js';
 const router = express.Router();
 
 router.get("/", getAllNotepadData);
+
+router.get("/:id", getbyIdNotepadData);
+
 
 // router.get("/:id", (req, res) => {
 //     console.log(req.params.id);
